@@ -11,7 +11,6 @@ public class HandlingButtons {
 		ChromeDriver driver  = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		
 		driver.get("https://letcode.in/buttons");
 		
 		//Get the color of an element
