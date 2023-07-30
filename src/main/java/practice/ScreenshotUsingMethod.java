@@ -37,12 +37,18 @@ WebDriver driver;
 		File to = new File("./Snap/img6.png");
 		FileHandler.copy(from, to);
 	}
+	
+	public void quit()
+	{
+		driver.quit();
+	}
  
 	public static void main(String[] args) throws IOException 
 	{
 		ScreenshotUsingMethod ss = new ScreenshotUsingMethod();
 		ss.LaunchBrowser();
 		ss.TakeSS();
+		ss.quit();
 	}
 }
 
