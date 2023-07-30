@@ -19,7 +19,6 @@ public class ScreenShots {
 		ChromeDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		
 		driver.get("https://letcode.in/buttons");
 		
 	//Take Screenshot 1
