@@ -33,8 +33,8 @@ public class LetCodeLogin
         
         //Click on login
         driver.findElement(By.xpath("//button[text()='LOGIN']")).click();
-        Thread.sleep(5000);
         
+        Thread.sleep(5000);
         driver.close();
     }
 }
