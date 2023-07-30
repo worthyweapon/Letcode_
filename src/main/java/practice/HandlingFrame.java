@@ -17,7 +17,7 @@ public class HandlingFrame {
 		
 		System.setProperty("webdriver.chrome.driver", "./Web-Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		
+
 		driver.manage().window().maximize();
 		driver.get("https://letcode.in/frame");
 		
@@ -43,7 +43,6 @@ public class HandlingFrame {
 		FileHandler.copy(from, to);
 		
 		Thread.sleep(2000);
-		
 		driver.quit();
 	}
 
