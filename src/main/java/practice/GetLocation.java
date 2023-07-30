@@ -13,7 +13,6 @@ public class GetLocation {
 		ChromeDriver driver  = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		
 		driver.get("https://letcode.in/buttons");
 		
 		//Get the X & Y co-ordinates
