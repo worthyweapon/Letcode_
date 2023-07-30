@@ -11,8 +11,8 @@ public class HandlingAlerts {
 	{
 		System.setProperty("webdriver.chrome.driver", "./Web-Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		
 		 driver.manage().window().maximize();
-		 
 		 driver.get("https://letcode.in/alert");
 		 
 		 //To accept the alert
