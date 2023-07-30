@@ -39,7 +39,6 @@ public class HandlingInputs {
 		System.out.println("Confirm edit field is disabled : " + check);
 		
 		Thread.sleep(3000);
-		//Close the Browser
 		driver.close();
 	}
 	
