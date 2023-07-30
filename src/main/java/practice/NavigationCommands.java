@@ -50,8 +50,8 @@ public class NavigationCommands {
 		driver.navigate().to("https://chat.openai.com/");
 		String Navigate_To = driver.getCurrentUrl();
 		System.out.println("The user has navigated to : " + Navigate_To);
-		Thread.sleep(2000);
 		
+		Thread.sleep(2000);
 		driver.close();
 	}
 }
