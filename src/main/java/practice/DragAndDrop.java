@@ -16,6 +16,7 @@ public class DragAndDrop {
 		driver.manage().window().maximize();
 		driver.get("https://letcode.in/dropable");
 		
+				//Drag and Drop uses src and dest webelements to do the action
 		WebElement src = driver.findElement(By.xpath("//p[text()='Drag me to my target']"));
 		WebElement dest = driver.findElement(By.id("droppable"));
 		
