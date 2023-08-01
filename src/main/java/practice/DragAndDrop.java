@@ -25,7 +25,6 @@ public class DragAndDrop {
 				//Whenever we use Actions clas, it is mandatory to call perform()
 		
 		Thread.sleep(2000);
-		
 		driver.quit();
 	}
 }
